@@ -16,6 +16,11 @@ $(document).ready(function(){
 		}
 	});
 	
-	$("[name=nameglow]").colorPicker();
-	$("[name=namecolor]").colorPicker();
+	$("[name=nameglow]").colorPicker({
+		opacity: false
+	});
+	
+	$("[name=namecolor]").colorPicker({
+		opacity: false
+	});
 });

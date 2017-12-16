@@ -14,5 +14,7 @@ $(document).ready(function(){
 		}
 	});
 	
-	$("[name=nameglow]").colorPicker();
+	$("[name=nameglow]").colorPicker({
+		opacity: false
+	});
 });
